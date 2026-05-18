@@ -1,4 +1,6 @@
-../Src/main.c:19:6:delay_ms	24	static,ignoring_inline_asm
-../Src/main.c:27:6:USART2_Init	4	static
-../Src/main.c:55:6:USART2_SendByte	16	static
-../Src/main.c:66:5:main	8	static
+../Src/main.c:31:6:delay_ms	24	static,ignoring_inline_asm
+../Src/main.c:39:6:GPIO_DIR_Init	4	static
+../Src/main.c:55:6:PWM_PA5_Init	4	static
+../Src/main.c:99:6:Set_PWM_Percent	16	static
+../Src/main.c:109:6:Set_Direction	16	static
+../Src/main.c:121:5:main	8	static
