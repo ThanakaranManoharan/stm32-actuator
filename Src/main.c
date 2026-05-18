@@ -125,21 +125,21 @@ int main(void)
 
     while (1)
     {
-        // Move one direction slowly
+        // Extend
         Set_Direction(1);
         Set_PWM_Percent(30);
-        delay_ms(1000);
+        delay_ms(8000);     // move for 8 seconds
 
-        // Stop
+        // Stop for 2 seconds
         Set_PWM_Percent(0);
-        delay_ms(1000);
+        delay_ms(2000);
 
-        // Move the other direction slowly
+        // Retract
         Set_Direction(0);
         Set_PWM_Percent(30);
-        delay_ms(1000);
+        delay_ms(8000);     // move for 8 seconds
 
-        // Stop
+        // Stop for 2 seconds
         Set_PWM_Percent(0);
         delay_ms(2000);
     }
