@@ -15,5 +15,5 @@
 ../Src/main.c:293:6:Door_Close	1
 ../Src/main.c:304:6:Door_Toggle	3
 ../Src/main.c:316:6:Door_Update	5
-../Src/main.c:346:6:Handle_Command	11
+../Src/main.c:346:6:Handle_Command	13
 ../Src/main.c:378:5:main	2
